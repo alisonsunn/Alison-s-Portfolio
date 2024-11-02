@@ -8,7 +8,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
 export default function MagicCat(props) {
-  const { nodes, materials } = useGLTF('/models/black_cute_cat_in_a_m_1015062011_refine.glb')
+  const { nodes, materials } = useGLTF('/models/anime_short_fluffy__1016015946_refine.glb')
 
   const modelRef = useRef();
 
@@ -19,17 +19,17 @@ export default function MagicCat(props) {
     <group {...props} 
     dispose={null}
     ref={modelRef}
-    scale={[1.5,1.5,1.5,1.5]}
+    scale={[2,2,2,2]}
     rotation={[0.25,0,0]}
     >
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.file1.geometry}
-        material={materials.Material_1}
+        geometry={nodes.mesh_0.geometry}
+        material={nodes.mesh_0.material}
       />
     </group>
   )
 }
 
-useGLTF.preload('/models/black_cute_cat_in_a_m_1015062011_refine.glb')
+useGLTF.preload('/models/anime_short_fluffy__1016015946_refine.glb')

@@ -12,21 +12,21 @@ Websites:
 export const projectsData = [
   {
     id: 1,
-    name: "EcoTracker",
+    name: "Sushi Website",
     description: "Track your carbon footprint",
     date: "2022-08-15",
     demoLink: "https://ecotracker.example.com",
   },
   {
     id: 2,
-    name: "ArtGallery Online",
+    name: "Receipe Book",
     description: "Digital art showcase platform",
     date: "2022-06-20",
     demoLink: "https://artgalleryonline.example.com",
   },
   {
     id: 3,
-    name: "BudgetPlanner",
+    name: "Notebook",
     description: "Plan and track expenses",
     date: "2022-09-10",
     demoLink: "https://budgetplanner.example.com",
@@ -51,35 +51,7 @@ export const projectsData = [
     description: "Log your travels",
     date: "2022-10-01",
     demoLink: "https://journeylogger.example.com",
-  },
-  {
-    id: 7,
-    name: "StudyBuddy",
-    description: "Collaborative learning platform",
-    date: "2022-04-18",
-    demoLink: "https://studybuddy.example.com",
-  },
-  {
-    id: 8,
-    name: "TechTalk",
-    description: "Tech news aggregator",
-    date: "2022-11-05",
-    demoLink: "https://techtalk.example.com",
-  },
-  {
-    id: 9,
-    name: "FitTrack",
-    description: "Fitness and workout tracker",
-    date: "2022-03-22",
-    demoLink: "https://fittrack.example.com",
-  },
-  {
-    id: 10,
-    name: "MindfulMoments",
-    description: "Meditation and mindfulness app",
-    date: "2022-02-14",
-    demoLink: "https://mindfulmoments.example.com",
-  },
+  }
 ];
 
 export const BtnList = [
@@ -89,13 +61,13 @@ export const BtnList = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://www.github.com/codebucks27",
+    link: "https://github.com/alisonsunn",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/codebucks",
+    link: "https://www.linkedin.com/in/alison-s-5177a4238/",
     icon: "linkedin",
     newTab: true,
   },
@@ -112,5 +84,48 @@ export const BtnList = [
     newTab: true,
   },
 ];
+
+export const IconsList = [
+  {
+    src: "/icons/figma.png",
+    alt: "figma"
+  },
+  {
+    src: "/icons/html.png",
+    alt: "html"
+  },
+  {
+    src: "/icons/css-3.png",
+    alt: "css"
+  },
+  {
+    src: "/icons/js.png",
+    alt: "js"
+  },
+  {
+    src: "/icons/physics.png",
+    alt: "react"
+  },
+  {
+    src: "/icons/nodejs.png",
+    alt: "nodejs"
+  },
+  {
+    src: "/icons/python.png",
+    alt: "python"
+  },
+  {
+    src: "/icons/java.png",
+    alt: "java"
+  },
+  {
+    src: "/icons/prism.png",
+    alt: "prisma"
+  },
+  {
+    src: "/icons/social.png",
+    alt: "social"
+  }
+]
 
 
